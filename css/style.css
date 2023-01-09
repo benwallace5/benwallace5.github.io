@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  img {
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+    border-width: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-top:40px;
+  }
+  
+  header h1 {
+    text-align: left;
+    margin: 0;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  
+  header nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+  }
+  
+  header nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd; 
+    transition: background-color 0.2s;
+  }
+
+  #experience {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    background-color: #fff;
+    clear: both;
+    margin-bottom: 40px;
+  }
+
+  header nav a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: -20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  .project-container {
+    clear: both;
+    display: block;
+    margin-bottom: 20px; /* Add space between projects */
+  }
+  .project img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.project-content {
+  display: flex;
+  align-items: center;
+}
+
+.project-content img {
+  width: 30%;
+  height: auto;
+}
+
+.project-content p {
+  width: 70%;
+  margin: 0;
+  padding: 0;
+}
+  #projectsSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+  #about {
+    clear: both;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+
+  #about h2 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  #about h3 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  #about p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  
+  #about a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  #about a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
