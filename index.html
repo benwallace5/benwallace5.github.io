@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Top Bitch Brands | Coming Soon</title>
+  <meta name="description" content="Top Bitch Brands. Something big is coming.">
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0d0d0d;
+      --fg: #f5f1ea;
+      --muted: #a8a29e;
+      --accent: #ff3e8a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 16px;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: "Inter", system-ui, sans-serif;
+      text-align: center;
+    }
+    .eyebrow {
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-family: "Archivo Black", "Arial Black", sans-serif;
+      font-size: clamp(2.75rem, 11vw, 8rem);
+      line-height: 0.92;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+    }
+    p {
+      max-width: 34ch;
+      margin-top: 28px;
+      font-size: 1.125rem;
+      line-height: 1.6;
+      color: var(--muted);
+    }
+    footer {
+      position: absolute;
+      bottom: 24px;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="eyebrow">Coming soon</div>
+  <h1>Top Bitch<br>Brands</h1>
+  <p>Something big is on the way. Stay tuned.</p>
+  <footer>&copy; <span id="y">2026</span> Top Bitch Brands</footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
